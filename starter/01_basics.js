@@ -3,6 +3,7 @@
 
 function printStudentName() {
   // Your code here
+  console.log("hello")
 }
 
 module.exports = { printStudentName };
