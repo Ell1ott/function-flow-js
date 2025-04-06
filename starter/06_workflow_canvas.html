@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+
+		<title>Document</title>
+	</head>
+	<body></body>
+	<script>
+		const canvas = document.createElement("canvas");
+		canvas.width = 600;
+		canvas.height = 400;
+		document.body.appendChild(canvas);
+
+		const ctx = canvas.getContext("2d");
+
+		const steps = ["Start", "Process", "Decision", "Action", "End"];
+
+		function drawFlowStep(step) {
+			// Your code here
+		}
+		ctx.fillText("Workflow Canvas", 10, 50);
+		ctx.font = "bold 48px serif";
+
+		steps.forEach((step, index) => {
+			setTimeout(() => {
+				ctx.fillText(step, 10, 100 + index * 50);
+			}, index * 1000);
+		});
+
+		function animateFlow() {
+			// Your code here
+		}
+	</script>
+</html>
