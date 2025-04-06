@@ -7,7 +7,7 @@ let role = "guest";
 
 function setRole() {
 	let role = "admin";
-	console.log(role);
+	console.log("Inside function:", role);
 }
 
 function showGlobalRole() {

@@ -3,11 +3,12 @@
 // TODO: Also create a function 'tenPercentOff' that returns 90% of a given value
 
 function applyDiscount(price, discountFn) {
-  // Your code here
+	return discountFn(price);
 }
 
 function tenPercentOff(amount) {
-  // Your code here
+	return amount * 0.9;
 }
+console.log(applyDiscount(10, tenPercentOff))
 
 module.exports = { applyDiscount, tenPercentOff };
