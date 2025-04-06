@@ -1,16 +1,16 @@
 // TODO: Write a function 'greet' and call it before its definition
 // TODO: Write a function 'showUserData' where you use a variable before declaring it with var
 
-greet()
+greet();
 
 function greet() {
-  console.log("Hello!")
+	console.log("Welcome to the course!");
 }
 
 function showUserData() {
-  console.log(newVariable)
+	console.log(newVariable);
 }
 
-var newVariable = "User data"
+var newVariable = "User data";
 
 module.exports = { greet, showUserData };
